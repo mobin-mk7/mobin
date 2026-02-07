@@ -1,0 +1,45 @@
+body{
+    
+    background-color: black;
+    background: url(./pic/pngtree-background-of-monitor-computer-with-online-game-streaming-desktop-picture-image_15517930.png) center / cover no-repeat fixed;
+    opacity: 0.5;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.b{
+    
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px yellow;
+    opacity: 0.8;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+}
+.c{
+    text-decoration: none;
+    color: black;
+    font-size: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 90px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: aqua;
+    width: 300px;
+    height: 50px;
+}
+.c:hover{
+    text-decoration: none;
+    box-shadow: 0 0 15px #00ffff;
+    transform: scale(1.05);
+}
+
